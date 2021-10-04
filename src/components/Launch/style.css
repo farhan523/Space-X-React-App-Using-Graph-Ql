@@ -1,0 +1,47 @@
+.launches   ul li{
+    padding:10px;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+}
+
+.launches   ul li:hover{
+  background-color:white;
+  color:black;
+}
+
+.launches  {
+    max-width: 400px;
+    background-color: black;
+    color: white;
+    height:100vh;
+   overflow-x:hidden;
+    overflow-y:auto;
+    min-width: 100px;
+    scroll-behavior: smooth;
+}
+
+.launches  h3{
+    padding:20px;
+    color:#DE7500
+}
+
+/* width */
+.launches::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  .launches::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  .launches::-webkit-scrollbar-thumb {
+    background: red;
+  }
+  
+  /* Handle on hover */
+  .launches::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
